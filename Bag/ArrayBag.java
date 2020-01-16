@@ -49,6 +49,14 @@ public class ArrayBag<T> implements BagInterface<T> {
 
   }
 
+  public BagInterface<T> intersection(BagInterface<T> anotherBag);
+  //telling you the items that are common to the two bags
+  
+  public BagInterface<T> union(BagInterface<T> anotherBag);
+  
+  public BagInterface<T> difference(BagInterface<T> anotherBag);
+  
+  // bags are multisets, they can have duplicate values
 
 
 }
